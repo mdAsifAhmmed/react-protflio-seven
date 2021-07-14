@@ -1,0 +1,87 @@
+.Tuch {
+    background-color: var(--secson-bg-color);
+    padding: 50px 0px;
+}
+
+.Tuch__headding {
+    padding: 50px 0px;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+.Tuch__headding span {
+    color: var(--color-font);
+}
+
+.Tuch_conten {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .maps, */
+.conteckUs {
+    width: 50%;
+    margin: auto;
+}
+
+.conteck_hadding {
+    padding: 20px 0px;
+}
+
+.mini_input {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.single__input,
+.conteck_body textarea,
+.mini_input input {
+    width: 100%;
+    padding: 5px 0px 5px 10px;
+    margin: 5px 2px !important;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.Send_btn {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: var(--color-font);
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.Send_btn a {
+    text-decoration: none;
+    color: var(--all-font-color)
+}
+
+.Send_btn:hover a {
+    text-decoration: none;
+    color: var(--all-font-color);
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    .Tuch__headding,
+    .conteckUs {
+        width: 100%;
+    }
+}

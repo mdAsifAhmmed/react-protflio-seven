@@ -1,0 +1,26 @@
+.Hires{
+    background-image:url('img/slider-1.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: aqua;
+}
+.Hire___whappre{
+    height:100%;
+    padding:100px 0px;
+    background-color: rgba(0, 0, 0, 0.731);
+}
+.Hire_conten{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.Hire_btn > button{
+    padding:10px 43px; 
+    font-size: 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}

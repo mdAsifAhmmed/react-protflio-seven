@@ -1,0 +1,40 @@
+.Count__all{
+    background-color:var(--secson-bg-color);
+    padding: 50px 0px; 
+    color:var(--all-font-color);
+}
+.count_Card_whapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.count_Card{
+    width: 250px;
+    height:auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px dotted var(--all-font-color);
+}
+.count_Card:last-child{
+    border-right:none;
+}
+.count_Card h2{
+    color:var(--color-font);
+    font-size:45px !important;
+    margin-bottom: 10px;
+}
+.count_Card spna{
+    font-size:30px;
+    margin:40px 0px;
+}
+.count_Card p{
+    margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .count_Card{
+        border: none;
+    }
+}

@@ -1,0 +1,48 @@
+.AbilitesCom{
+    background-color:var(--secson-bg-color-light);
+    padding:15vh 0px;
+}
+.progress_x{
+    margin:5px 0px;
+}
+.progress_bar_text{
+    margin-top:10px;
+    display:flex;
+    justify-content:space-between;
+}
+.progres__s{
+    width:10%;
+}
+.progress_x{
+    overflow: hidden;
+    width:100%;
+    height:10px;
+    border-radius: 30px;
+    background: rgb(255, 255, 255) !important;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.progres__s_html{
+    border-radius: 30px;
+    width:95%;
+    background:var(--color-font);
+    height:100%;
+}
+.progres__s_css{
+    height:100%;
+    width:80%;
+    background:var(--color-font);
+    border-radius: 30px;
+}.progres__s_js{
+    height:100%;
+    width:70%;
+    background:var(--color-font);
+    border-radius: 30px;
+}.progres__s_react{
+    height:100%;
+    width:90%;
+    background:var(--color-font);
+    border-radius: 30px;
+}

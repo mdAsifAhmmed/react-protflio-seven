@@ -1,0 +1,165 @@
+.navbar__whapper {
+  height: 70px;
+  border-bottom: 0.1px solid gray;
+  display: flex;
+  align-items: center;
+  position: sticky;
+}
+
+.Sub__hadding {
+  color: var(--all-font-color);
+}
+
+.navbar__item {
+  color: var(--all-font-color) !important;
+}
+
+.Sub__hadding {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Sub__hadding_left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Sub__hadding_left__icon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Sub__hadding_left__icon>ui {
+  display: flex;
+  align-items: center;
+}
+
+.Sub__hadding_left__icon>ui>li {
+  margin: 5px;
+  padding: 5px;
+  list-style: none;
+}
+
+.Hover_Effate li:hover a {
+  color: var(--color-font) !important;
+}
+
+.Sub__hadding_left__icon>ui>li:hover a {
+  color: var(--color-font);
+}
+
+.Sub__hadding_left__icon>ui>li>a {
+  text-decoration: none;
+  color: var(--all-font-color);
+}
+
+.sub__body__whapper {
+  height: 85vh;
+  display: flex;
+}
+
+.sub__body__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 100%;
+  text-align: center;
+  margin: auto !important;
+}
+
+.sub__body__content_whapper>h1 {
+  margin-bottom: 30px;
+  font-size: 6.5vh;
+}
+
+.sub__body__content_whapper>h1>span {
+  color: var(--color-font);
+}
+
+.sub__body__content_whapper>button {
+  margin: 20px 0px;
+  outline: none;
+  padding: 12px 25px;
+  font-size: 14px;
+  color: var(--all-font-color);
+  background: none;
+  border: 1px solid var(--all-font-color);
+  transition: 0.5s;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.sub__body__content_whapper>button:hover {
+  background: var(--all-font-color);
+  color: black;
+}
+
+.sub__body__animishon {
+  position: absolute;
+  bottom: 30px;
+}
+
+.sub__body__animishon_fIcon {
+  position: absolute;
+  transform: translate(0px, -20px);
+  -webkit-transform: translate(0px, -30px);
+  -moz-transform: translate(0px, -20px);
+  -ms-transform: translate(0px, -20px);
+  -o-transform: translate(0px, -20px);
+}
+
+.sub__body__animishon_div {
+  font-size: 25px;
+  display: flex;
+  animation: identifier 1s alternate infinite;
+  -webkit-animation: identifier 1s alternate infinite;
+}
+
+.col-12.col-md-12.col-lg-12.col-sm-12.sub__body__content_whapper {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes identifier {
+  0% {
+    transform: translate(0px, 0px);
+    -webkit-transform: translate(0px, 0px);
+    -moz-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    -o-transform: translate(0px, 0px);
+  }
+
+  100% {
+    transform: translate(0vh, 5vh);
+    -webkit-transform: translate(0vh, 5vh);
+    -moz-transform: translate(0vh, 5vh);
+    -ms-transform: translate(0vh, 5vh);
+    -o-transform: translate(0vh, 5vh);
+  }
+}
+
+@media only screen and (max-width: 1170px) {
+  .nav.Hover_Effate {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .sub__body__content {
+    width: 100%;
+    height: 100%;
+  }
+}
